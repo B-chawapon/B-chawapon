@@ -6,6 +6,24 @@
 			src="/github-metrics.svg" />
 	</a>
 </p>
+<p align="center">
+	<a>
+		<img align="center"
+			src="/metrics.plugin.activity.svg" />
+	</a>
+</p>
+<p align="center">
+	<a>
+		<img align="center"
+			src="/metrics.plugin.isocalendar.fullyear.svg" />
+	</a>
+</p>
+<p align="center">
+	<a>
+		<img align="center"
+			src="/metrics.plugin.languages.indepth.svg" />
+	</a>
+</p>
 
 <!--
 **B-chawapon/B-chawapon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
