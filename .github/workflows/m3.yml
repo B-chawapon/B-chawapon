@@ -189,7 +189,7 @@ jobs:
         with:
           filename: metrics.plugin.introduction.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: simonSlamka
+          user: B-chawapon
           base: header
           plugin_introduction: yes
           plugins_errors_fatal: no
