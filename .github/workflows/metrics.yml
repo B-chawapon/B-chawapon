@@ -19,7 +19,7 @@ jobs:
         uses: simonSlamka/metrics@latest
         with:
           filename: metrics.classic.svg
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
           plugin_lines: yes
           plugins_errors_fatal: no
@@ -38,7 +38,7 @@ jobs:
         uses: simonSlamka/metrics@latest
         with:
           filename: metrics.plugin.activity.svg
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 7
