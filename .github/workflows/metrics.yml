@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     if: "github.repository == 'B-chawapon/B-chawapon'"
     steps:
-
       # ======================================================================================
       # 🖼️ TEMPLATES
       # ======================================================================================
@@ -24,11 +23,11 @@ jobs:
           plugin_lines: yes
           plugins_errors_fatal: no
           output_action: commit
-          
+
       # ======================================================================================
       # 🧩 PLUGINS
       # ======================================================================================
-      
+
       # ======================================================================================
       # 📰 Recent activity
 
@@ -46,3 +45,11 @@ jobs:
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
           plugins_errors_fatal: no
           output_action: commit
+
+      - name: Half-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
