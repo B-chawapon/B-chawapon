@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+<p align="center">
+	<a>
+		<img align="center"
+			src="/github-metrics.svg" />
+	</a>
+</p>
+
 <!--
 **B-chawapon/B-chawapon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
