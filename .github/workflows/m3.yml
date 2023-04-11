@@ -6,7 +6,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    if: "github.repository == 'simonSlamka/simonSlamka'"
+    if: "github.repository == 'B-chawapon/B-chawapon'"
     steps:
       # ======================================================================================
       # 🖼️ TEMPLATES
