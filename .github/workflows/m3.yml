@@ -183,7 +183,7 @@ jobs:
       # 🙋 Introduction
 
       # Display introduction (user)
-      - name: 🙋 Introduction plugin
+      - name: 🙋 Introduction plugin :D
         if: ${{ success() || failure() }}
         uses: simonSlamka/metrics@latest
         with:
