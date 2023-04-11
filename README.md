@@ -9,12 +9,6 @@
 <p align="center">
 	<a>
 		<img align="center"
-			src="/metrics.plugin.activity.svg" />
-	</a>
-</p>
-<p align="center">
-	<a>
-		<img align="center"
 			src="/metrics.plugin.isocalendar.fullyear.svg" />
 	</a>
 </p>
@@ -22,6 +16,12 @@
 	<a>
 		<img align="center"
 			src="/metrics.plugin.languages.indepth.svg" />
+	</a>
+</p>
+<p align="center">
+	<a>
+		<img align="center"
+			src="/metrics.plugin.activity.svg" />
 	</a>
 </p>
 
